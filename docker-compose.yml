@@ -1,5 +1,5 @@
 ghost:
-  build: .
+  image: thehumaneffort/ghost-template-editor:latest
   command: '/bin/sh -c "cd /application && npm start "'
   ports:
     - '2368:2368'
