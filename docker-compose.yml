@@ -6,4 +6,5 @@ ghost:
   environment:
     - DOCKER_HOST=$DOCKER_HOST
   volumes:
-    - 'themes:/application/content/themes'
+    - './data:/application/content/data'
+    - './themes:/application/content/themes'
